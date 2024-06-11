@@ -51,6 +51,7 @@ body {
     font-style: normal;
     padding-top: 1%;
     font-size: 1.25em;
+    cursor: pointer;
 }
 
 .buttonToMainSite {
