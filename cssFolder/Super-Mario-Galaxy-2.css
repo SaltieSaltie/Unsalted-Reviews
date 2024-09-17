@@ -65,82 +65,121 @@ nav ul li a {
     text-decoration: none;      /* no underline for text */
 }
 
-.nostalgiaLane {
+.startingContent {
     margin: 0;
-    background-color: blanchedalmond;
-    padding-bottom: 2%;
+    margin-bottom: 3%;
 }
 
-.popular2023 {
+.gameTitleSection {
     margin: 0;
-    background-color: azure;
-    padding-bottom: 2%;
+    align-items: center;
 }
 
-.spicyShooters {
+.gameTitle {
     margin: 0;
-    background-color: rgb(255, 99, 99);
-    padding-bottom: 2%;
-}
-
-.bitterHorrors {
-    margin: 0;
-    background-color: rgb(160, 160, 160);
-    padding-bottom: 2%;
-}
-
-.sectionTitle {
-    margin: 0;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-left: 2%;
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    font-size: 5em;
+}
+
+.gameScore {
+    margin: auto;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     font-size: 4em;
+    color: #20FF00;
 }
 
-.wrapper {
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 250px;
-    border: 5px solid black;
-    border-radius: 20px;
+.gameScoreSection {
     display: flex;
-    overflow-x: auto;
-}
-
-.wrapper::-webkit-scrollbar {
-    height: 15px;
-    background-color: aquamarine;
-}
-
-.wrapper::-webkit-scrollbar-thumb {
     background-color: black;
+    border-radius: 200px;
+    margin-right: 85%;
+    margin-left: 3%;
 }
 
-.wrapper .wrapper-item {
-    text-align: center;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-.thumbnailButton {
+.gameGeneralInfo {
     margin: 0;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    border-radius: 20px;
+    padding-top: 0;
+    padding-left: 2%;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
 }
 
-.thumbnailButtonImage {
+.trailerVideo {
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+
+.mainContent {
     margin: 0;
-    max-height: 240px;
-    border: none;
-    border-radius: 20px;
-    padding: 0;
+}
+
+.storySection {
+    background-color: beige;
+    margin: 2% 2% 2% 2%;
+    border-radius: 50px;
+    padding-bottom: 2%;
+}
+
+.gameplaySection {
+    background-color: pink;
+    margin: 2% 2% 2% 2%;
+    border-radius: 50px;
+    padding-bottom: 2%;
+}
+
+.graphicsSection {
+    background-color: lightgreen;
+    margin: 2% 2% 2% 2%;
+    border-radius: 50px;
+    padding-bottom: 2%;
+}
+
+.soundtrackSection {
+    background-color: lightblue;
+    margin: 2% 2% 2% 2%;
+    border-radius: 50px;
+    padding-bottom: 2%;
+}
+
+.technicalSection {
+    background-color: lightgrey;
+    margin: 2% 2% 2% 2%;
+    border-radius: 50px;
+    padding-bottom: 2%;
+}
+
+.sectionTitle {
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 2%;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5em;
+}
+
+.reviewParagraph {
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 2%;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.3em;
 }
 
 .footerSection {
@@ -207,6 +246,3 @@ nav ul li a {
 .footerText:hover {
     color: aqua;
 }
-
-
-
